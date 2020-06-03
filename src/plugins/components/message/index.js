@@ -23,6 +23,7 @@ let getInit = ()=>{
 }
 
 function Message(options){
+  console.log('===>')
   switch(options.type){
     case 'info':
       getInit().add({...options,color:'green'})

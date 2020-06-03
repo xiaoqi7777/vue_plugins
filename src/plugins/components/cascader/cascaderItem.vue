@@ -38,7 +38,6 @@ import cloneDeep from 'lodash/cloneDeep'
       lists(){
         if (this.value[this.level] && this.value[this.level].id) {
           let o = this.option.find(item => item.id === this.value[this.level].id)
-          console.log(o)
           return o.children
         }
       }
@@ -51,7 +50,6 @@ import cloneDeep from 'lodash/cloneDeep'
         this.$emit('change', item)
       },
       click(item){
-        console.log('====')
         let newValue = cloneDeep(this.value)
         newValue[this.level] = item
         newValue.splice(this.level + 1)

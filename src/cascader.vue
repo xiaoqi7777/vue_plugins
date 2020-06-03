@@ -1,6 +1,6 @@
 <template>
   <div>
-    value=>{{value}}
+    选中总数据=>{{value}}
     <sg-cascader :option.sync="options" v-model="value" :lazyload="lazyload"></sg-cascader>
   </div>
 </template>

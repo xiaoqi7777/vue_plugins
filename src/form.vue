@@ -2,10 +2,10 @@
   <div>
     form
     <sgForm :model="form" :rules="rules" ref="form">
-      <sgFormItem label='测试' prop='username'>
+      <sgFormItem label='username' prop='username'>
         <sgInput type="text" value=""></sgInput>
       </sgFormItem>
-      <sgFormItem label='test' prop='password'>
+      <sgFormItem label='password' prop='password'>
         <sgInput type="text" value=""></sgInput>
       </sgFormItem>
       <button @click="validate">确认提交</button>

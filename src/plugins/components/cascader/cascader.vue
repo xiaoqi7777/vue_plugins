@@ -2,7 +2,7 @@
   <!--  -->
   <div v-click-outside="close">
     <div class="top" @click="btn">
-      {{rs}}
+    选中的值 => {{rs}}
     </div>
     <div v-show="isShow">
       <CascaderItem :option='option' :level='0'  :value='value' @change="change" />

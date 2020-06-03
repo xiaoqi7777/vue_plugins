@@ -3,7 +3,6 @@ import App from './app.vue'
 
 import ShareData from './TestPlugin/ShareData'
 import sgPlugin from './plugins'
-import {Formm,FormItem,Inputt} from './plugins/components/form'
 
 // 所有组件都共享
 let dataInfo = {
